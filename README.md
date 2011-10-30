@@ -14,4 +14,4 @@ Frameworks official pages:
 
 License
 -------
-All frameworks are copyrighted by their creators and licensed by different licensed, for more information you should look through projects sites.
+All frameworks are copyrighted by their creators and licensed by different licenses, for more information you should look through project pages.
