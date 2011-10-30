@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FLAC' target in the 'FLAC' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
