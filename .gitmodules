@@ -1,0 +1,3 @@
+[submodule "cyberlink-src"]
+	path = cyberlink-src
+	url = git://github.com/cybergarage/CyberLink4C.git
