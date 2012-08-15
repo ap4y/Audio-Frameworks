@@ -60,6 +60,12 @@
 		9529EF4115DBF5F0000303A6 /* stream_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9529EEEF15DBF23E000303A6 /* stream_encoder.c */; };
 		9529EF4215DBF5F0000303A6 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 9529EEF015DBF23E000303A6 /* window.c */; };
 		9529EF4915DBF68E000303A6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 9529EED915DBF05E000303A6 /* config.h */; };
+		9529F35215DC0C8F000303A6 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 9529F35015DC0C8F000303A6 /* ogg.h */; settings = {ATTRIBUTES = (); }; };
+		9529F35315DC0C8F000303A6 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9529F35115DC0C8F000303A6 /* os_types.h */; settings = {ATTRIBUTES = (); }; };
+		9529F35F15DC0E56000303A6 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 9529F35D15DC0E56000303A6 /* bitwise.c */; };
+		9529F36015DC0E56000303A6 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 9529F35D15DC0E56000303A6 /* bitwise.c */; };
+		9529F36115DC0E56000303A6 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 9529F35E15DC0E56000303A6 /* framing.c */; };
+		9529F36215DC0E56000303A6 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 9529F35E15DC0E56000303A6 /* framing.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,7 +116,11 @@
 		9529EF1215DBF3EA000303A6 /* ordinals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ordinals.h; path = "../../flac-src/include/FLAC/ordinals.h"; sourceTree = "<group>"; };
 		9529EF1315DBF3EA000303A6 /* stream_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stream_decoder.h; path = "../../flac-src/include/FLAC/stream_decoder.h"; sourceTree = "<group>"; };
 		9529EF1415DBF3EA000303A6 /* stream_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stream_encoder.h; path = "../../flac-src/include/FLAC/stream_encoder.h"; sourceTree = "<group>"; };
-		9529EF2215DBF5D7000303A6 /* liblibFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9529EF2215DBF5D7000303A6 /* liblibFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = liblibFLAC.a; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9529F35015DC0C8F000303A6 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = "../../libogg-src/include/ogg/ogg.h"; sourceTree = "<group>"; };
+		9529F35115DC0C8F000303A6 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = os_types.h; path = "../../libogg-src/include/ogg/os_types.h"; sourceTree = "<group>"; };
+		9529F35D15DC0E56000303A6 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = "../../libogg-src/src/bitwise.c"; sourceTree = "<group>"; };
+		9529F35E15DC0E56000303A6 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = framing.c; path = "../../libogg-src/src/framing.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +189,8 @@
 		9529EEDB15DBF235000303A6 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9529F35D15DC0E56000303A6 /* bitwise.c */,
+				9529F35E15DC0E56000303A6 /* framing.c */,
 				9529EEDC15DBF23E000303A6 /* bitmath.c */,
 				9529EEDD15DBF23E000303A6 /* bitreader.c */,
 				9529EEDE15DBF23E000303A6 /* bitwriter.c */,
@@ -207,6 +219,8 @@
 		9529EF0615DBF283000303A6 /* headers */ = {
 			isa = PBXGroup;
 			children = (
+				9529F35015DC0C8F000303A6 /* ogg.h */,
+				9529F35115DC0C8F000303A6 /* os_types.h */,
 				9529EED915DBF05E000303A6 /* config.h */,
 				9529EF0C15DBF3EA000303A6 /* all.h */,
 				9529EF0D15DBF3EA000303A6 /* assert.h */,
@@ -238,6 +252,8 @@
 				9529EF1C15DBF3EB000303A6 /* stream_decoder.h in Headers */,
 				9529EF1D15DBF3EB000303A6 /* stream_encoder.h in Headers */,
 				9529EEDA15DBF05E000303A6 /* config.h in Headers */,
+				9529F35215DC0C8F000303A6 /* ogg.h in Headers */,
+				9529F35315DC0C8F000303A6 /* os_types.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +411,8 @@
 				9529EF0315DBF23E000303A6 /* stream_encoder_framing.c in Sources */,
 				9529EF0415DBF23E000303A6 /* stream_encoder.c in Sources */,
 				9529EF0515DBF23E000303A6 /* window.c in Sources */,
+				9529F35F15DC0E56000303A6 /* bitwise.c in Sources */,
+				9529F36115DC0E56000303A6 /* framing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +441,8 @@
 				9529EF4015DBF5F0000303A6 /* stream_encoder_framing.c in Sources */,
 				9529EF4115DBF5F0000303A6 /* stream_encoder.c in Sources */,
 				9529EF4215DBF5F0000303A6 /* window.c in Sources */,
+				9529F36015DC0E56000303A6 /* bitwise.c in Sources */,
+				9529F36215DC0E56000303A6 /* framing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +613,7 @@
 				9529EF2D15DBF5D7000303A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
