@@ -1,17 +1,26 @@
-Audio Frameworks
-=============
+FLAC, TagLib, CyberlinkUPNP as iOS static frameworks and libraries
 
-Audio frameworks which had been used in Origami project (https://github.com/ap4y/Origami).
+Instructions
+-------
+
+Precompiled libraries and frameworks are located in `bin` folder.
+
+Libraries sources included as git submodules where possible, other sources should be downloaded and unarchived to the corresponding folder.
+
+In order to compile iOS static framework target you need to install `Fake Framework` template from [iOS-Universal-Framework](https://github.com/kstenerud/iOS-Universal-Framework)
 
 Credits
 -------
 
 Frameworks official pages:
 
-- http://www.cybergarage.org/twiki/bin/view/
-- http://developer.kde.org/~wheeler/taglib.html
+- https://github.com/cybergarage/CyberLink4C
+- http://taglib.github.com/
 - http://flac.sourceforge.net/
+- http://xiph.org/ogg/
+- https://github.com/kstenerud/iOS-Universal-Framework
 
 License
 -------
+
 All frameworks are copyrighted by their creators and licensed by different licenses, for more information you should look through project pages.
