@@ -542,7 +542,7 @@
 					"../libogg-src/include/",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FLAC;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -560,7 +560,7 @@
 					"../libogg-src/include/",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FLAC;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
