@@ -16,4 +16,7 @@ build/*
 xcuserdata
 profile
 *.moved-aside
-FLAC_sources/flac
+
+flac-src/*
+libogg-src/*
+!put_you_sources_here
