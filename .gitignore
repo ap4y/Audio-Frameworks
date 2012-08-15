@@ -16,3 +16,4 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+FLAC_sources/flac
