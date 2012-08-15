@@ -7,445 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95E340BF13FC508C00D2D7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E340BE13FC508C00D2D7A5 /* Foundation.framework */; };
-		95E340C513FC508C00D2D7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95E340C313FC508C00D2D7A5 /* InfoPlist.strings */; };
-		95E340E713FC50C100D2D7A5 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D113FC50C100D2D7A5 /* all.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340E813FC50C100D2D7A5 /* assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D213FC50C100D2D7A5 /* assert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340E913FC50C100D2D7A5 /* callback.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D313FC50C100D2D7A5 /* callback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340EA13FC50C100D2D7A5 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D413FC50C100D2D7A5 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340EB13FC50C100D2D7A5 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D513FC50C100D2D7A5 /* format.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340EC13FC50C100D2D7A5 /* metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D613FC50C100D2D7A5 /* metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340ED13FC50C100D2D7A5 /* ordinals.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D713FC50C100D2D7A5 /* ordinals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340EE13FC50C100D2D7A5 /* stream_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D813FC50C100D2D7A5 /* stream_decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340EF13FC50C100D2D7A5 /* stream_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340D913FC50C100D2D7A5 /* stream_encoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E340F013FC50C100D2D7A5 /* alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340DB13FC50C100D2D7A5 /* alloc.h */; };
-		95E340F113FC50C100D2D7A5 /* getopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340DC13FC50C100D2D7A5 /* getopt.h */; };
-		95E340F213FC50C100D2D7A5 /* cuesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340DE13FC50C100D2D7A5 /* cuesheet.h */; };
-		95E340F313FC50C100D2D7A5 /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340DF13FC50C100D2D7A5 /* file.h */; };
-		95E340F413FC50C100D2D7A5 /* picture.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E013FC50C100D2D7A5 /* picture.h */; };
-		95E340F513FC50C100D2D7A5 /* replaygain.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E113FC50C100D2D7A5 /* replaygain.h */; };
-		95E340F613FC50C100D2D7A5 /* seektable.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E213FC50C100D2D7A5 /* seektable.h */; };
-		95E340F713FC50C100D2D7A5 /* grabbag.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E313FC50C100D2D7A5 /* grabbag.h */; };
-		95E340F813FC50C100D2D7A5 /* replaygain_analysis.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E413FC50C100D2D7A5 /* replaygain_analysis.h */; };
-		95E340F913FC50C100D2D7A5 /* replaygain_synthesis.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E513FC50C100D2D7A5 /* replaygain_synthesis.h */; };
-		95E340FA13FC50C100D2D7A5 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E340E613FC50C100D2D7A5 /* utf8.h */; };
-		95E3413713FC511F00D2D7A5 /* bitmath.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E340FD13FC511F00D2D7A5 /* bitmath.c */; };
-		95E3413813FC511F00D2D7A5 /* bitreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E340FE13FC511F00D2D7A5 /* bitreader.c */; };
-		95E3413913FC511F00D2D7A5 /* bitwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E340FF13FC511F00D2D7A5 /* bitwriter.c */; };
-		95E3413A13FC511F00D2D7A5 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3410013FC511F00D2D7A5 /* cpu.c */; };
-		95E3413B13FC511F00D2D7A5 /* crc.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3410113FC511F00D2D7A5 /* crc.c */; };
-		95E3413C13FC511F00D2D7A5 /* fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3410213FC511F00D2D7A5 /* fixed.c */; };
-		95E3413D13FC511F00D2D7A5 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3410313FC511F00D2D7A5 /* float.c */; };
-		95E3413E13FC511F00D2D7A5 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3410413FC511F00D2D7A5 /* format.c */; };
-		95E3414513FC511F00D2D7A5 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3410E13FC511F00D2D7A5 /* all.h */; };
-		95E3414613FC511F00D2D7A5 /* bitmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3410F13FC511F00D2D7A5 /* bitmath.h */; };
-		95E3414713FC511F00D2D7A5 /* bitreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411013FC511F00D2D7A5 /* bitreader.h */; };
-		95E3414813FC511F00D2D7A5 /* bitwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411113FC511F00D2D7A5 /* bitwriter.h */; };
-		95E3414913FC511F00D2D7A5 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411213FC511F00D2D7A5 /* cpu.h */; };
-		95E3414A13FC511F00D2D7A5 /* crc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411313FC511F00D2D7A5 /* crc.h */; };
-		95E3414B13FC511F00D2D7A5 /* fixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411413FC511F00D2D7A5 /* fixed.h */; };
-		95E3414C13FC511F00D2D7A5 /* float.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411513FC511F00D2D7A5 /* float.h */; };
-		95E3414D13FC511F00D2D7A5 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411613FC511F00D2D7A5 /* format.h */; };
-		95E3414E13FC511F00D2D7A5 /* lpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411713FC511F00D2D7A5 /* lpc.h */; };
-		95E3414F13FC511F00D2D7A5 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411813FC511F00D2D7A5 /* md5.h */; };
-		95E3415013FC511F00D2D7A5 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411913FC511F00D2D7A5 /* memory.h */; };
-		95E3415113FC511F00D2D7A5 /* metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411A13FC511F00D2D7A5 /* metadata.h */; };
-		95E3415213FC511F00D2D7A5 /* ogg_decoder_aspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411B13FC511F00D2D7A5 /* ogg_decoder_aspect.h */; };
-		95E3415313FC511F00D2D7A5 /* ogg_encoder_aspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411C13FC511F00D2D7A5 /* ogg_encoder_aspect.h */; };
-		95E3415413FC511F00D2D7A5 /* ogg_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411D13FC511F00D2D7A5 /* ogg_helper.h */; };
-		95E3415513FC511F00D2D7A5 /* ogg_mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411E13FC511F00D2D7A5 /* ogg_mapping.h */; };
-		95E3415613FC511F00D2D7A5 /* stream_encoder_framing.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3411F13FC511F00D2D7A5 /* stream_encoder_framing.h */; };
-		95E3415713FC511F00D2D7A5 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3412013FC511F00D2D7A5 /* window.h */; };
-		95E3415813FC511F00D2D7A5 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3412213FC511F00D2D7A5 /* all.h */; };
-		95E3415913FC511F00D2D7A5 /* stream_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3412313FC511F00D2D7A5 /* stream_decoder.h */; };
-		95E3415A13FC511F00D2D7A5 /* stream_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3412413FC511F00D2D7A5 /* stream_encoder.h */; };
-		95E3415B13FC511F00D2D7A5 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3412513FC511F00D2D7A5 /* lpc.c */; };
-		95E3415C13FC511F00D2D7A5 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3412613FC511F00D2D7A5 /* md5.c */; };
-		95E3415D13FC511F00D2D7A5 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3412713FC511F00D2D7A5 /* memory.c */; };
-		95E3415E13FC511F00D2D7A5 /* metadata_iterators.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3412813FC511F00D2D7A5 /* metadata_iterators.c */; };
-		95E3415F13FC511F00D2D7A5 /* metadata_object.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3412913FC511F00D2D7A5 /* metadata_object.c */; };
-		95E3416613FC511F00D2D7A5 /* stream_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3413313FC511F00D2D7A5 /* stream_decoder.c */; };
-		95E3416713FC511F00D2D7A5 /* stream_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3413413FC511F00D2D7A5 /* stream_encoder.c */; };
-		95E3416813FC511F00D2D7A5 /* stream_encoder_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3413513FC511F00D2D7A5 /* stream_encoder_framing.c */; };
-		95E3416913FC511F00D2D7A5 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 95E3413613FC511F00D2D7A5 /* window.c */; };
+		9529EDCA15DBE25F000303A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9529EDC815DBE25F000303A6 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95E340BB13FC508C00D2D7A5 /* FLAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = FLAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E340BE13FC508C00D2D7A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		95E340C213FC508C00D2D7A5 /* FLAC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLAC-Info.plist"; sourceTree = "<group>"; };
-		95E340C413FC508C00D2D7A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		95E340C613FC508C00D2D7A5 /* FLAC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLAC-Prefix.pch"; sourceTree = "<group>"; };
-		95E340D113FC50C100D2D7A5 /* all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = all.h; sourceTree = "<group>"; };
-		95E340D213FC50C100D2D7A5 /* assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assert.h; sourceTree = "<group>"; };
-		95E340D313FC50C100D2D7A5 /* callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callback.h; sourceTree = "<group>"; };
-		95E340D413FC50C100D2D7A5 /* export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
-		95E340D513FC50C100D2D7A5 /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
-		95E340D613FC50C100D2D7A5 /* metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
-		95E340D713FC50C100D2D7A5 /* ordinals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ordinals.h; sourceTree = "<group>"; };
-		95E340D813FC50C100D2D7A5 /* stream_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_decoder.h; sourceTree = "<group>"; };
-		95E340D913FC50C100D2D7A5 /* stream_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_encoder.h; sourceTree = "<group>"; };
-		95E340DB13FC50C100D2D7A5 /* alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alloc.h; sourceTree = "<group>"; };
-		95E340DC13FC50C100D2D7A5 /* getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
-		95E340DE13FC50C100D2D7A5 /* cuesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cuesheet.h; sourceTree = "<group>"; };
-		95E340DF13FC50C100D2D7A5 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
-		95E340E013FC50C100D2D7A5 /* picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picture.h; sourceTree = "<group>"; };
-		95E340E113FC50C100D2D7A5 /* replaygain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replaygain.h; sourceTree = "<group>"; };
-		95E340E213FC50C100D2D7A5 /* seektable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seektable.h; sourceTree = "<group>"; };
-		95E340E313FC50C100D2D7A5 /* grabbag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grabbag.h; sourceTree = "<group>"; };
-		95E340E413FC50C100D2D7A5 /* replaygain_analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replaygain_analysis.h; sourceTree = "<group>"; };
-		95E340E513FC50C100D2D7A5 /* replaygain_synthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replaygain_synthesis.h; sourceTree = "<group>"; };
-		95E340E613FC50C100D2D7A5 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
-		95E340FD13FC511F00D2D7A5 /* bitmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitmath.c; sourceTree = "<group>"; };
-		95E340FE13FC511F00D2D7A5 /* bitreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitreader.c; sourceTree = "<group>"; };
-		95E340FF13FC511F00D2D7A5 /* bitwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitwriter.c; sourceTree = "<group>"; };
-		95E3410013FC511F00D2D7A5 /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
-		95E3410113FC511F00D2D7A5 /* crc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc.c; sourceTree = "<group>"; };
-		95E3410213FC511F00D2D7A5 /* fixed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fixed.c; sourceTree = "<group>"; };
-		95E3410313FC511F00D2D7A5 /* float.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = float.c; sourceTree = "<group>"; };
-		95E3410413FC511F00D2D7A5 /* format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
-		95E3410613FC511F00D2D7A5 /* bitreader_asm.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; path = bitreader_asm.nasm; sourceTree = "<group>"; };
-		95E3410713FC511F00D2D7A5 /* cpu_asm.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; path = cpu_asm.nasm; sourceTree = "<group>"; };
-		95E3410813FC511F00D2D7A5 /* fixed_asm.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; path = fixed_asm.nasm; sourceTree = "<group>"; };
-		95E3410913FC511F00D2D7A5 /* lpc_asm.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; path = lpc_asm.nasm; sourceTree = "<group>"; };
-		95E3410A13FC511F00D2D7A5 /* nasm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nasm.h; sourceTree = "<group>"; };
-		95E3410B13FC511F00D2D7A5 /* stream_encoder_asm.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; path = stream_encoder_asm.nasm; sourceTree = "<group>"; };
-		95E3410E13FC511F00D2D7A5 /* all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = all.h; sourceTree = "<group>"; };
-		95E3410F13FC511F00D2D7A5 /* bitmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitmath.h; sourceTree = "<group>"; };
-		95E3411013FC511F00D2D7A5 /* bitreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitreader.h; sourceTree = "<group>"; };
-		95E3411113FC511F00D2D7A5 /* bitwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitwriter.h; sourceTree = "<group>"; };
-		95E3411213FC511F00D2D7A5 /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
-		95E3411313FC511F00D2D7A5 /* crc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc.h; sourceTree = "<group>"; };
-		95E3411413FC511F00D2D7A5 /* fixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixed.h; sourceTree = "<group>"; };
-		95E3411513FC511F00D2D7A5 /* float.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float.h; sourceTree = "<group>"; };
-		95E3411613FC511F00D2D7A5 /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
-		95E3411713FC511F00D2D7A5 /* lpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lpc.h; sourceTree = "<group>"; };
-		95E3411813FC511F00D2D7A5 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		95E3411913FC511F00D2D7A5 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
-		95E3411A13FC511F00D2D7A5 /* metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
-		95E3411B13FC511F00D2D7A5 /* ogg_decoder_aspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg_decoder_aspect.h; sourceTree = "<group>"; };
-		95E3411C13FC511F00D2D7A5 /* ogg_encoder_aspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg_encoder_aspect.h; sourceTree = "<group>"; };
-		95E3411D13FC511F00D2D7A5 /* ogg_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg_helper.h; sourceTree = "<group>"; };
-		95E3411E13FC511F00D2D7A5 /* ogg_mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg_mapping.h; sourceTree = "<group>"; };
-		95E3411F13FC511F00D2D7A5 /* stream_encoder_framing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_encoder_framing.h; sourceTree = "<group>"; };
-		95E3412013FC511F00D2D7A5 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
-		95E3412213FC511F00D2D7A5 /* all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = all.h; sourceTree = "<group>"; };
-		95E3412313FC511F00D2D7A5 /* stream_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_decoder.h; sourceTree = "<group>"; };
-		95E3412413FC511F00D2D7A5 /* stream_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_encoder.h; sourceTree = "<group>"; };
-		95E3412513FC511F00D2D7A5 /* lpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lpc.c; sourceTree = "<group>"; };
-		95E3412613FC511F00D2D7A5 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
-		95E3412713FC511F00D2D7A5 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
-		95E3412813FC511F00D2D7A5 /* metadata_iterators.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = metadata_iterators.c; sourceTree = "<group>"; };
-		95E3412913FC511F00D2D7A5 /* metadata_object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = metadata_object.c; sourceTree = "<group>"; };
-		95E3412A13FC511F00D2D7A5 /* ogg_decoder_aspect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ogg_decoder_aspect.c; sourceTree = "<group>"; };
-		95E3412B13FC511F00D2D7A5 /* ogg_encoder_aspect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ogg_encoder_aspect.c; sourceTree = "<group>"; };
-		95E3412C13FC511F00D2D7A5 /* ogg_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ogg_helper.c; sourceTree = "<group>"; };
-		95E3412D13FC511F00D2D7A5 /* ogg_mapping.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ogg_mapping.c; sourceTree = "<group>"; };
-		95E3413013FC511F00D2D7A5 /* lpc_asm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = lpc_asm.s; sourceTree = "<group>"; };
-		95E3413213FC511F00D2D7A5 /* lpc_asm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = lpc_asm.s; sourceTree = "<group>"; };
-		95E3413313FC511F00D2D7A5 /* stream_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream_decoder.c; sourceTree = "<group>"; };
-		95E3413413FC511F00D2D7A5 /* stream_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream_encoder.c; sourceTree = "<group>"; };
-		95E3413513FC511F00D2D7A5 /* stream_encoder_framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream_encoder_framing.c; sourceTree = "<group>"; };
-		95E3413613FC511F00D2D7A5 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = window.c; sourceTree = "<group>"; };
+		9529EDC315DBE25F000303A6 /* FLAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9529EDC715DBE25F000303A6 /* FLAC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLAC-Info.plist"; sourceTree = "<group>"; };
+		9529EDC915DBE25F000303A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9529EDCB15DBE25F000303A6 /* FLAC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLAC-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		95E340B613FC508C00D2D7A5 /* Frameworks */ = {
+		9529EDBD15DBE25F000303A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E340BF13FC508C00D2D7A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		95E340AD13FC508C00D2D7A5 = {
+		9529EDB415DBE25F000303A6 = {
 			isa = PBXGroup;
 			children = (
-				95E340C013FC508C00D2D7A5 /* FLAC */,
-				95E340BD13FC508C00D2D7A5 /* Frameworks */,
-				95E340BC13FC508C00D2D7A5 /* Products */,
+				9529EDC515DBE25F000303A6 /* FLAC */,
+				9529EDC415DBE25F000303A6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		95E340BC13FC508C00D2D7A5 /* Products */ = {
+		9529EDC415DBE25F000303A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95E340BB13FC508C00D2D7A5 /* FLAC.framework */,
+				9529EDC315DBE25F000303A6 /* FLAC.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95E340BD13FC508C00D2D7A5 /* Frameworks */ = {
+		9529EDC515DBE25F000303A6 /* FLAC */ = {
 			isa = PBXGroup;
 			children = (
-				95E340BE13FC508C00D2D7A5 /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		95E340C013FC508C00D2D7A5 /* FLAC */ = {
-			isa = PBXGroup;
-			children = (
-				95E340CF13FC50C100D2D7A5 /* include */,
-				95E340FB13FC511F00D2D7A5 /* src */,
-				95E340C113FC508C00D2D7A5 /* Supporting Files */,
+				9529EDC615DBE25F000303A6 /* Supporting Files */,
 			);
 			path = FLAC;
 			sourceTree = "<group>";
 		};
-		95E340C113FC508C00D2D7A5 /* Supporting Files */ = {
+		9529EDC615DBE25F000303A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				95E340C213FC508C00D2D7A5 /* FLAC-Info.plist */,
-				95E340C313FC508C00D2D7A5 /* InfoPlist.strings */,
-				95E340C613FC508C00D2D7A5 /* FLAC-Prefix.pch */,
+				9529EDC715DBE25F000303A6 /* FLAC-Info.plist */,
+				9529EDC815DBE25F000303A6 /* InfoPlist.strings */,
+				9529EDCB15DBE25F000303A6 /* FLAC-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		95E340CF13FC50C100D2D7A5 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				95E340D013FC50C100D2D7A5 /* FLAC */,
-				95E340DA13FC50C100D2D7A5 /* share */,
-			);
-			name = include;
-			path = "flac-1.2.1/include";
-			sourceTree = SOURCE_ROOT;
-		};
-		95E340D013FC50C100D2D7A5 /* FLAC */ = {
-			isa = PBXGroup;
-			children = (
-				95E340D113FC50C100D2D7A5 /* all.h */,
-				95E340D213FC50C100D2D7A5 /* assert.h */,
-				95E340D313FC50C100D2D7A5 /* callback.h */,
-				95E340D413FC50C100D2D7A5 /* export.h */,
-				95E340D513FC50C100D2D7A5 /* format.h */,
-				95E340D613FC50C100D2D7A5 /* metadata.h */,
-				95E340D713FC50C100D2D7A5 /* ordinals.h */,
-				95E340D813FC50C100D2D7A5 /* stream_decoder.h */,
-				95E340D913FC50C100D2D7A5 /* stream_encoder.h */,
-			);
-			path = FLAC;
-			sourceTree = "<group>";
-		};
-		95E340DA13FC50C100D2D7A5 /* share */ = {
-			isa = PBXGroup;
-			children = (
-				95E340DB13FC50C100D2D7A5 /* alloc.h */,
-				95E340DC13FC50C100D2D7A5 /* getopt.h */,
-				95E340DD13FC50C100D2D7A5 /* grabbag */,
-				95E340E313FC50C100D2D7A5 /* grabbag.h */,
-				95E340E413FC50C100D2D7A5 /* replaygain_analysis.h */,
-				95E340E513FC50C100D2D7A5 /* replaygain_synthesis.h */,
-				95E340E613FC50C100D2D7A5 /* utf8.h */,
-			);
-			path = share;
-			sourceTree = "<group>";
-		};
-		95E340DD13FC50C100D2D7A5 /* grabbag */ = {
-			isa = PBXGroup;
-			children = (
-				95E340DE13FC50C100D2D7A5 /* cuesheet.h */,
-				95E340DF13FC50C100D2D7A5 /* file.h */,
-				95E340E013FC50C100D2D7A5 /* picture.h */,
-				95E340E113FC50C100D2D7A5 /* replaygain.h */,
-				95E340E213FC50C100D2D7A5 /* seektable.h */,
-			);
-			path = grabbag;
-			sourceTree = "<group>";
-		};
-		95E340FB13FC511F00D2D7A5 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				95E340FC13FC511F00D2D7A5 /* libFLAC */,
-			);
-			name = src;
-			path = "flac-1.2.1/src";
-			sourceTree = SOURCE_ROOT;
-		};
-		95E340FC13FC511F00D2D7A5 /* libFLAC */ = {
-			isa = PBXGroup;
-			children = (
-				95E340FD13FC511F00D2D7A5 /* bitmath.c */,
-				95E340FE13FC511F00D2D7A5 /* bitreader.c */,
-				95E340FF13FC511F00D2D7A5 /* bitwriter.c */,
-				95E3410013FC511F00D2D7A5 /* cpu.c */,
-				95E3410113FC511F00D2D7A5 /* crc.c */,
-				95E3410213FC511F00D2D7A5 /* fixed.c */,
-				95E3410313FC511F00D2D7A5 /* float.c */,
-				95E3410413FC511F00D2D7A5 /* format.c */,
-				95E3410513FC511F00D2D7A5 /* ia32 */,
-				95E3410C13FC511F00D2D7A5 /* include */,
-				95E3412513FC511F00D2D7A5 /* lpc.c */,
-				95E3412613FC511F00D2D7A5 /* md5.c */,
-				95E3412713FC511F00D2D7A5 /* memory.c */,
-				95E3412813FC511F00D2D7A5 /* metadata_iterators.c */,
-				95E3412913FC511F00D2D7A5 /* metadata_object.c */,
-				95E3412A13FC511F00D2D7A5 /* ogg_decoder_aspect.c */,
-				95E3412B13FC511F00D2D7A5 /* ogg_encoder_aspect.c */,
-				95E3412C13FC511F00D2D7A5 /* ogg_helper.c */,
-				95E3412D13FC511F00D2D7A5 /* ogg_mapping.c */,
-				95E3412E13FC511F00D2D7A5 /* ppc */,
-				95E3413313FC511F00D2D7A5 /* stream_decoder.c */,
-				95E3413413FC511F00D2D7A5 /* stream_encoder.c */,
-				95E3413513FC511F00D2D7A5 /* stream_encoder_framing.c */,
-				95E3413613FC511F00D2D7A5 /* window.c */,
-			);
-			path = libFLAC;
-			sourceTree = "<group>";
-		};
-		95E3410513FC511F00D2D7A5 /* ia32 */ = {
-			isa = PBXGroup;
-			children = (
-				95E3410613FC511F00D2D7A5 /* bitreader_asm.nasm */,
-				95E3410713FC511F00D2D7A5 /* cpu_asm.nasm */,
-				95E3410813FC511F00D2D7A5 /* fixed_asm.nasm */,
-				95E3410913FC511F00D2D7A5 /* lpc_asm.nasm */,
-				95E3410A13FC511F00D2D7A5 /* nasm.h */,
-				95E3410B13FC511F00D2D7A5 /* stream_encoder_asm.nasm */,
-			);
-			path = ia32;
-			sourceTree = "<group>";
-		};
-		95E3410C13FC511F00D2D7A5 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				95E3410D13FC511F00D2D7A5 /* private */,
-				95E3412113FC511F00D2D7A5 /* protected */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		95E3410D13FC511F00D2D7A5 /* private */ = {
-			isa = PBXGroup;
-			children = (
-				95E3410E13FC511F00D2D7A5 /* all.h */,
-				95E3410F13FC511F00D2D7A5 /* bitmath.h */,
-				95E3411013FC511F00D2D7A5 /* bitreader.h */,
-				95E3411113FC511F00D2D7A5 /* bitwriter.h */,
-				95E3411213FC511F00D2D7A5 /* cpu.h */,
-				95E3411313FC511F00D2D7A5 /* crc.h */,
-				95E3411413FC511F00D2D7A5 /* fixed.h */,
-				95E3411513FC511F00D2D7A5 /* float.h */,
-				95E3411613FC511F00D2D7A5 /* format.h */,
-				95E3411713FC511F00D2D7A5 /* lpc.h */,
-				95E3411813FC511F00D2D7A5 /* md5.h */,
-				95E3411913FC511F00D2D7A5 /* memory.h */,
-				95E3411A13FC511F00D2D7A5 /* metadata.h */,
-				95E3411B13FC511F00D2D7A5 /* ogg_decoder_aspect.h */,
-				95E3411C13FC511F00D2D7A5 /* ogg_encoder_aspect.h */,
-				95E3411D13FC511F00D2D7A5 /* ogg_helper.h */,
-				95E3411E13FC511F00D2D7A5 /* ogg_mapping.h */,
-				95E3411F13FC511F00D2D7A5 /* stream_encoder_framing.h */,
-				95E3412013FC511F00D2D7A5 /* window.h */,
-			);
-			path = private;
-			sourceTree = "<group>";
-		};
-		95E3412113FC511F00D2D7A5 /* protected */ = {
-			isa = PBXGroup;
-			children = (
-				95E3412213FC511F00D2D7A5 /* all.h */,
-				95E3412313FC511F00D2D7A5 /* stream_decoder.h */,
-				95E3412413FC511F00D2D7A5 /* stream_encoder.h */,
-			);
-			path = protected;
-			sourceTree = "<group>";
-		};
-		95E3412E13FC511F00D2D7A5 /* ppc */ = {
-			isa = PBXGroup;
-			children = (
-				95E3412F13FC511F00D2D7A5 /* as */,
-				95E3413113FC511F00D2D7A5 /* gas */,
-			);
-			path = ppc;
-			sourceTree = "<group>";
-		};
-		95E3412F13FC511F00D2D7A5 /* as */ = {
-			isa = PBXGroup;
-			children = (
-				95E3413013FC511F00D2D7A5 /* lpc_asm.s */,
-			);
-			path = as;
-			sourceTree = "<group>";
-		};
-		95E3413113FC511F00D2D7A5 /* gas */ = {
-			isa = PBXGroup;
-			children = (
-				95E3413213FC511F00D2D7A5 /* lpc_asm.s */,
-			);
-			path = gas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		95E340B713FC508C00D2D7A5 /* Headers */ = {
+		9529EDBE15DBE25F000303A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E340E713FC50C100D2D7A5 /* all.h in Headers */,
-				95E340E813FC50C100D2D7A5 /* assert.h in Headers */,
-				95E340E913FC50C100D2D7A5 /* callback.h in Headers */,
-				95E340EA13FC50C100D2D7A5 /* export.h in Headers */,
-				95E340EB13FC50C100D2D7A5 /* format.h in Headers */,
-				95E340EC13FC50C100D2D7A5 /* metadata.h in Headers */,
-				95E340ED13FC50C100D2D7A5 /* ordinals.h in Headers */,
-				95E340EE13FC50C100D2D7A5 /* stream_decoder.h in Headers */,
-				95E340EF13FC50C100D2D7A5 /* stream_encoder.h in Headers */,
-				95E340F013FC50C100D2D7A5 /* alloc.h in Headers */,
-				95E340F113FC50C100D2D7A5 /* getopt.h in Headers */,
-				95E340F213FC50C100D2D7A5 /* cuesheet.h in Headers */,
-				95E340F313FC50C100D2D7A5 /* file.h in Headers */,
-				95E340F413FC50C100D2D7A5 /* picture.h in Headers */,
-				95E340F513FC50C100D2D7A5 /* replaygain.h in Headers */,
-				95E340F613FC50C100D2D7A5 /* seektable.h in Headers */,
-				95E340F713FC50C100D2D7A5 /* grabbag.h in Headers */,
-				95E340F813FC50C100D2D7A5 /* replaygain_analysis.h in Headers */,
-				95E340F913FC50C100D2D7A5 /* replaygain_synthesis.h in Headers */,
-				95E340FA13FC50C100D2D7A5 /* utf8.h in Headers */,
-				95E3414513FC511F00D2D7A5 /* all.h in Headers */,
-				95E3414613FC511F00D2D7A5 /* bitmath.h in Headers */,
-				95E3414713FC511F00D2D7A5 /* bitreader.h in Headers */,
-				95E3414813FC511F00D2D7A5 /* bitwriter.h in Headers */,
-				95E3414913FC511F00D2D7A5 /* cpu.h in Headers */,
-				95E3414A13FC511F00D2D7A5 /* crc.h in Headers */,
-				95E3414B13FC511F00D2D7A5 /* fixed.h in Headers */,
-				95E3414C13FC511F00D2D7A5 /* float.h in Headers */,
-				95E3414D13FC511F00D2D7A5 /* format.h in Headers */,
-				95E3414E13FC511F00D2D7A5 /* lpc.h in Headers */,
-				95E3414F13FC511F00D2D7A5 /* md5.h in Headers */,
-				95E3415013FC511F00D2D7A5 /* memory.h in Headers */,
-				95E3415113FC511F00D2D7A5 /* metadata.h in Headers */,
-				95E3415213FC511F00D2D7A5 /* ogg_decoder_aspect.h in Headers */,
-				95E3415313FC511F00D2D7A5 /* ogg_encoder_aspect.h in Headers */,
-				95E3415413FC511F00D2D7A5 /* ogg_helper.h in Headers */,
-				95E3415513FC511F00D2D7A5 /* ogg_mapping.h in Headers */,
-				95E3415613FC511F00D2D7A5 /* stream_encoder_framing.h in Headers */,
-				95E3415713FC511F00D2D7A5 /* window.h in Headers */,
-				95E3415813FC511F00D2D7A5 /* all.h in Headers */,
-				95E3415913FC511F00D2D7A5 /* stream_decoder.h in Headers */,
-				95E3415A13FC511F00D2D7A5 /* stream_encoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		95E340BA13FC508C00D2D7A5 /* FLAC */ = {
+		9529EDC215DBE25F000303A6 /* FLAC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E340C913FC508C00D2D7A5 /* Build configuration list for PBXNativeTarget "FLAC" */;
+			buildConfigurationList = 9529EDCE15DBE25F000303A6 /* Build configuration list for PBXNativeTarget "FLAC" */;
 			buildPhases = (
-				95E340B413FC508C00D2D7A5 /* ShellScript */,
-				95E340B613FC508C00D2D7A5 /* Frameworks */,
-				95E340B813FC508C00D2D7A5 /* Resources */,
-				95E340B713FC508C00D2D7A5 /* Headers */,
-				95E340B513FC508C00D2D7A5 /* Sources */,
-				95E340B913FC508C00D2D7A5 /* ShellScript */,
+				9529EDBB15DBE25F000303A6 /* ShellScript */,
+				9529EDBC15DBE25F000303A6 /* Sources */,
+				9529EDBD15DBE25F000303A6 /* Frameworks */,
+				9529EDBE15DBE25F000303A6 /* Headers */,
+				9529EDBF15DBE25F000303A6 /* Resources */,
+				9529EDC015DBE25F000303A6 /* ShellScript */,
+				9529EDC115DBE25F000303A6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -453,44 +93,47 @@
 			);
 			name = FLAC;
 			productName = FLAC;
-			productReference = 95E340BB13FC508C00D2D7A5 /* FLAC.framework */;
-			productType = "com.apple.product-type.framework.static";
+			productReference = 9529EDC315DBE25F000303A6 /* FLAC.framework */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		95E340AF13FC508C00D2D7A5 /* Project object */ = {
+		9529EDB615DBE25F000303A6 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 95E340B213FC508C00D2D7A5 /* Build configuration list for PBXProject "FLAC" */;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 9529EDB915DBE25F000303A6 /* Build configuration list for PBXProject "FLAC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 95E340AD13FC508C00D2D7A5;
-			productRefGroup = 95E340BC13FC508C00D2D7A5 /* Products */;
+			mainGroup = 9529EDB415DBE25F000303A6;
+			productRefGroup = 9529EDC415DBE25F000303A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95E340BA13FC508C00D2D7A5 /* FLAC */,
+				9529EDC215DBE25F000303A6 /* FLAC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		95E340B813FC508C00D2D7A5 /* Resources */ = {
+		9529EDBF15DBE25F000303A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E340C513FC508C00D2D7A5 /* InfoPlist.strings in Resources */,
+				9529EDCA15DBE25F000303A6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		95E340B413FC508C00D2D7A5 /* ShellScript */ = {
+		9529EDBB15DBE25F000303A6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -503,7 +146,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
 		};
-		95E340B913FC508C00D2D7A5 /* ShellScript */ = {
+		9529EDC015DBE25F000303A6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,42 +157,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		9529EDC115DBE25F000303A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sfh \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		95E340B513FC508C00D2D7A5 /* Sources */ = {
+		9529EDBC15DBE25F000303A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E3413713FC511F00D2D7A5 /* bitmath.c in Sources */,
-				95E3413813FC511F00D2D7A5 /* bitreader.c in Sources */,
-				95E3413913FC511F00D2D7A5 /* bitwriter.c in Sources */,
-				95E3413A13FC511F00D2D7A5 /* cpu.c in Sources */,
-				95E3413B13FC511F00D2D7A5 /* crc.c in Sources */,
-				95E3413C13FC511F00D2D7A5 /* fixed.c in Sources */,
-				95E3413D13FC511F00D2D7A5 /* float.c in Sources */,
-				95E3413E13FC511F00D2D7A5 /* format.c in Sources */,
-				95E3415B13FC511F00D2D7A5 /* lpc.c in Sources */,
-				95E3415C13FC511F00D2D7A5 /* md5.c in Sources */,
-				95E3415D13FC511F00D2D7A5 /* memory.c in Sources */,
-				95E3415E13FC511F00D2D7A5 /* metadata_iterators.c in Sources */,
-				95E3415F13FC511F00D2D7A5 /* metadata_object.c in Sources */,
-				95E3416613FC511F00D2D7A5 /* stream_decoder.c in Sources */,
-				95E3416713FC511F00D2D7A5 /* stream_encoder.c in Sources */,
-				95E3416813FC511F00D2D7A5 /* stream_encoder_framing.c in Sources */,
-				95E3416913FC511F00D2D7A5 /* window.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		95E340C313FC508C00D2D7A5 /* InfoPlist.strings */ = {
+		9529EDC815DBE25F000303A6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				95E340C413FC508C00D2D7A5 /* en */,
+				9529EDC915DBE25F000303A6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -557,84 +196,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		95E340C713FC508C00D2D7A5 /* Debug */ = {
+		9529EDCC15DBE25F000303A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		95E340C813FC508C00D2D7A5 /* Release */ = {
+		9529EDCD15DBE25F000303A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		95E340CA13FC508C00D2D7A5 /* Debug */ = {
+		9529EDCF15DBE25F000303A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLAC/FLAC-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				HEADER_SEARCH_PATHS = (
-					"flac-1.2.1/src/libFLAC/include",
-					"flac-1.2.1/include",
-				);
 				INFOPLIST_FILE = "FLAC/FLAC-Info.plist";
-				OTHER_CFLAGS = "-DVERSION=\\\"1.2.1\\\"";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		95E340CB13FC508C00D2D7A5 /* Release */ = {
+		9529EDD015DBE25F000303A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FLAC/FLAC-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				HEADER_SEARCH_PATHS = (
-					"flac-1.2.1/src/libFLAC/include",
-					"flac-1.2.1/include",
-				);
 				INFOPLIST_FILE = "FLAC/FLAC-Info.plist";
-				OTHER_CFLAGS = "-DVERSION=\\\"1.2.1\\\"";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -642,25 +295,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95E340B213FC508C00D2D7A5 /* Build configuration list for PBXProject "FLAC" */ = {
+		9529EDB915DBE25F000303A6 /* Build configuration list for PBXProject "FLAC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95E340C713FC508C00D2D7A5 /* Debug */,
-				95E340C813FC508C00D2D7A5 /* Release */,
+				9529EDCC15DBE25F000303A6 /* Debug */,
+				9529EDCD15DBE25F000303A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E340C913FC508C00D2D7A5 /* Build configuration list for PBXNativeTarget "FLAC" */ = {
+		9529EDCE15DBE25F000303A6 /* Build configuration list for PBXNativeTarget "FLAC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95E340CA13FC508C00D2D7A5 /* Debug */,
-				95E340CB13FC508C00D2D7A5 /* Release */,
+				9529EDCF15DBE25F000303A6 /* Debug */,
+				9529EDD015DBE25F000303A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 95E340AF13FC508C00D2D7A5 /* Project object */;
+	rootObject = 9529EDB615DBE25F000303A6 /* Project object */;
 }
