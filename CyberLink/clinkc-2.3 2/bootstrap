@@ -1,9 +1,0 @@
-#!/bin/sh
-rm -rf config
-mkdir config
-rm -rf autom4te.cache
-libtoolize --automake --force --copy
-aclocal
-autoheader
-automake --foreign --add-missing --copy
-autoconf 
