@@ -1,4 +1,10 @@
-FLAC, TagLib, CyberlinkUPNP as iOS static frameworks and libraries
+MacOS/iOS static frameworks and libraries:
+* FLAC
+* TagLib,
+* CyberlinkUPNP
+* Ogg
+* Opus
+* OpusFile
 
 Instructions
 -------
@@ -19,6 +25,7 @@ Frameworks official pages:
 - http://flac.sourceforge.net/
 - http://xiph.org/ogg/
 - https://github.com/kstenerud/iOS-Universal-Framework
+- http://opus-codec.org
 
 License
 -------
