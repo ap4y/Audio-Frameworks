@@ -19,4 +19,6 @@ profile
 
 flac-src/*
 libogg-src/*
+libopus-src/*
+libopusfile-src/*
 !put_sources_here
